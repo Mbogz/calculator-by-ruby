@@ -21,10 +21,10 @@ def calculator
     when 4
       perform_operation("division")
     when 5
-      puts "Thank you for using the Calculator App. Goodbye!"
+      puts "Thank you for using the Calculator App!"
       break
     else
-      puts "Invalid choice. Please try again."
+      puts "Invalid choice. Kindly choose from the above options."
     end
   end
 end
@@ -58,3 +58,5 @@ def perform_operation(operation)
 
   puts "Result: #{num1} #{operator} #{num2} = #{result}"
 end
+
+calculator
